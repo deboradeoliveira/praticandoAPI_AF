@@ -5,5 +5,5 @@ jdk:
 deploy:
   provider: heroku
   api_key:
-    - secure: 7ba5ea86-2320-490f-85ae-20f2d1ab2b70
-  app: avaliacaofinaaal
+  - secure: $SECURE_KEY
+  app: $APP
