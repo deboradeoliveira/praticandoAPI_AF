@@ -2,8 +2,8 @@ dist: trusty
 language: java
 jdk:
 - oraclejdk8
-before_build:
-mvn -N io.takari:maven:wrapper
+before_install:
+  - chmod +x mvnw
 deploy:
   provider: heroku
   api_key:
